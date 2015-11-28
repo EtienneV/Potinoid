@@ -1,0 +1,92 @@
+/* HEADER PAGE USER */
+
+.header-page-user-v2
+{
+    /*margin-bottom: 10px;*/
+    overflow:hidden;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    box-shadow: 2px 2px 3px #C9C9C9;
+
+    position:relative; 
+    height:240px
+}
+
+
+.header-page-user-v2 h2
+{
+    text-align: left;
+    color: white;
+}
+
+.hpu-fond-v2 {
+    position:absolute;
+    z-index:1; 
+    width:100%; 
+    height:100%;
+}
+
+.hpu-fond-v2 img {
+    width:100%; 
+    height:100%;
+}
+
+.hpu-user-v2 {
+    position:absolute;
+    top:10px;
+    left:10px; 
+    width:942px; 
+    height:200px; 
+    z-index:2;
+}
+
+.hpu-v2-roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:90px;
+    -moz-border-radius:90px;
+    border-radius:90px;
+    width:180px;
+    height:180px;
+
+    border: 2px solid #FFFFFF;
+}
+
+.hpu-nom-v2 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    padding:5px;
+
+}
+
+.hpu-user-v2 h2 {
+    
+}
+
+.hpu-user-v2 em {
+    color: white;
+}
+
+/* ONGLETS PAGE USER */
+
+.hpu-v2-onglets {
+    position:absolute;
+    top:200px;
+    left:0;
+    z-index:3;
+}
+
+.hpu-v2-onglets li a{
+    background-color: grey;
+    opacity: 0.7;
+    color: white;
+}
+
+.hpu-v2-onglets li.active a{
+    opacity: 1;
+}
+
+
+
+
+

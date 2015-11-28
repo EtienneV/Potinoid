@@ -1,0 +1,118 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px;
+
+  background-color: #FFC282;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+
+  background-color: #459C79;
+}
+
+
+footer p
+{
+    font-family: 'voltage', Arial, serif;
+    margin:14px;
+}
+
+@font-face {
+    font-family: 'voltage';
+    src: url('../font/Voltage/voltage-webfont.eot');
+    src: url('../font/Voltage/voltage-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Voltage/voltage-webfont.woff2') format('woff2'),
+         url('../font/Voltage/voltage-webfont.woff') format('woff'),
+         url('../font/Voltage/voltage-webfont.ttf') format('truetype'),
+         url('../font/Voltage/voltage-webfont.svg#voltageregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1
+{
+    font-family: 'voltage', Arial, serif;
+    font-size: 63px;
+    color: #459C79;
+    text-align: center;
+}
+
+h1 b
+{
+    color : #FC6042;
+
+    font-size: 120px;
+
+}
+
+.jumbotron-connexion
+{
+    margin-bottom: 30px;
+    padding-top: 30px;
+
+    /*background-color: #EEE657;*/
+}
+
+form legend
+{
+    font-family: 'voltage', Arial, serif;
+    font-size: 30px;
+
+    border-bottom-color : black;
+}
+
+form label
+{
+    font-family: Helvetica, Arial, serif;
+}
+
+.btn 
+{
+    border-width: 0px;
+    margin-bottom: 5px;
+    background-color: #6A82C7;
+}
+
+.btn:hover
+{
+    background-color: #42517D;
+}
+
+.btn-potato
+{
+  background-color: #78858C;
+}
+
+#potato
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fb-style
+{
+  padding-top : 10px;
+}
+
+#lien_oubli_mdp
+{
+  float: right;
+}
+
+.oubli_mdp_w {
+  display: none;
+}

@@ -1,0 +1,140 @@
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+    background-color: white; /* Ajout perso */
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.bs-callout h5 { /* Ajout perso */
+    margin-top: 0;
+    margin-bottom: 5px;
+    color : grey;
+}
+
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+
+
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-default a {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-primary a {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-success a {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-danger a {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-warning a {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+.bs-callout-info a {
+    color: #5bc0de;
+}
+
+/*
+.bs-callout-default {
+    border-left-color: #0689D8;
+}
+.bs-callout-default h4 {
+    color: #0689D8;
+}
+.bs-callout-default a {
+    color: #0689D8;
+}
+.bs-callout-primary {
+    border-left-color: #FFCE00;
+}
+.bs-callout-primary h4 {
+    color: #FFCE00;
+}
+.bs-callout-primary a {
+    color: #FFCE00;
+}
+.bs-callout-success {
+    border-left-color: #D60003;
+}
+.bs-callout-success h4 {
+    color: #D60003;
+}
+.bs-callout-success a {
+    color: #D60003;
+}
+.bs-callout-danger {
+    border-left-color: #FF6900;
+}
+.bs-callout-danger h4 {
+    color: #FF6900;
+}
+.bs-callout-danger a {
+    color: #FF6900;
+}
+.bs-callout-warning {
+    border-left-color: #CD1896;
+}
+.bs-callout-warning h4 {
+    color: #CD1896;
+}
+.bs-callout-warning a {
+    color: #CD1896;
+}
+.bs-callout-info {
+    border-left-color: #4500CA;
+}
+.bs-callout-info h4 {
+    color: #4500CA;
+}
+.bs-callout-info a {
+    color: #4500CA;
+}*/
